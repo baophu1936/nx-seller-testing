@@ -1,0 +1,14 @@
+{
+  "validUser": {
+    "username": "phu.truong17",
+    "password": "Abc@1234"
+  },
+  "lockedUser": {
+    "username": "locked_out_user",
+    "password": "secret_sauce"
+  },
+  "invalidUser": {
+    "username": "fake_user",
+    "password": "wrong_pass"
+  }
+}

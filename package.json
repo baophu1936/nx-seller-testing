@@ -1,0 +1,14 @@
+{
+  "name": "playwright-saucedemo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:login": "npx playwright test tests/login.spec.js",
+    "report": "npx playwright show-report",
+    "ui--": "npx playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
