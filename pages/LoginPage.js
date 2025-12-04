@@ -10,7 +10,6 @@ class LoginPage {
 
   async goto() {
     await this.page.goto('https://nx-seller-client.eventry.phatnt.com/#/login');
-    // console.log('[goto] a', this.usernameInput, this.passwordInput);
     
   }
 
