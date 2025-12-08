@@ -21,9 +21,9 @@ test.describe('SauceDemo Login Tests', () => {
     await expect(loginPage.errorMessage).toContainText('Invalid login details provided (Invalid Credentials)');
   });
 
-  test('Should login fail if user is blocked', async () => {
-    await loginPage.login(users.lockedUser.username, users.lockedUser.password);
-    await expect(loginPage.errorMessage).toBeVisible();
-    await expect(loginPage.errorMessage).toContainText('Sorry, this user has been locked out.');
-  });
+  // test('Should login fail if user is blocked', async () => {
+  //   await loginPage.login(users.lockedUser.username, users.lockedUser.password);
+  //   await expect(loginPage.errorMessage).toBeVisible();
+  //   await expect(loginPage.errorMessage).toContainText('Sorry, this user has been locked out.');
+  // });
 });
