@@ -15,7 +15,7 @@ test.describe('SauceDemo Login Tests', () => {
     await expect(page).toHaveURL('https://nx-seller-client.eventry.phatnt.com/#/');
   });
 
-  test('Login thất bại với user sai thông tin', async () => {
+  test('Should login fail if wrong information', async () => {
     await loginPage.login(users.invalidUser.username, users.invalidUser.password);
     await expect(loginPage.errorMessage).toBeVisible();
     await expect(loginPage.errorMessage).toContainText('Invalid login details provided (Invalid Credentials)');
