@@ -2,7 +2,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   use: {
-    baseURL: 'https://www.saucedemo.com',
+    baseURL: 'https://nx-seller-client.eventry.phatnt.com/#/login',
     headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
