@@ -113,7 +113,7 @@ test.describe('Organizer Management - Create Actions', () => {
   });
 
   // Bug: không chặn trùng tên
-  test('8. Create Organizer with duplicate Name', async ({ page }) => {
+  test('8. Create Organizer with duplicate Name no need', async ({ page }) => {
     const uniqueName = `Organizer Only`;
     await organizerPage.nameInput.fill(uniqueName);
     await organizerPage.saveButton.click();
