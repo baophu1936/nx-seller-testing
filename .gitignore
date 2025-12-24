@@ -48,3 +48,9 @@ bun.lockb
 /test-results/
 .cache/
 driver
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
